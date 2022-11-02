@@ -29,8 +29,9 @@ class Van(Vehicles):
         else:
             return "the van is not loaded"
 
-class ElectricVehicle():
-    def __init__(self):
+class ElectricVehicle(Vehicles):
+    def __init__(self, mark, model):
+        super().__init__(mark,model)
         self.autonomy=100
     def chargeEnergy(self):
         self.charging=True
@@ -48,8 +49,12 @@ meVan.state()
 print(meVan.load(True))
 
 class ElectricBike(ElectricVehicle,Vehicles):#multiple inheritance , use the constructor of the first class introduced
+
     pass
 
-meBike=ElectricBike()
+meBike=ElectricBike("honda","cbr")
+
+print("..............................")
+meBike.state()
 
 
