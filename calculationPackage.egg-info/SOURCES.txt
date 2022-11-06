@@ -1,0 +1,9 @@
+README.md
+setup.py
+PythonPackages/ModuleUseFromPackage.py
+PythonPackages/Calculations/GeneralCalculations.py
+PythonPackages/Calculations/__init__.py
+calculationPackage.egg-info/PKG-INFO
+calculationPackage.egg-info/SOURCES.txt
+calculationPackage.egg-info/dependency_links.txt
+calculationPackage.egg-info/top_level.txt
